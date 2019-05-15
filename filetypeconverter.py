@@ -1,4 +1,4 @@
-#Written by Josiah Schmidt, 5/14/19
+#Written by Josiah Schmidt, last updated 5/15/19
 #Converts file types of files stored in the same location as script
 infilename=str(input("input a file name, should be .rhtml: ")) #gets name of file to convert
 infile = open(infilename, 'r') #opens read only
