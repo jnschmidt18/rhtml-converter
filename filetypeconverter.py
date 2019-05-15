@@ -7,7 +7,7 @@ infile.close() #close that file
 print(text) #show text is read
 outfilename=str(input("give a file name to output to, should be .html: ")) #gets name of file to write to
 outfile=open(outfilename, 'a+') #create needed html file, read and write access
-contents=outfile.read()
+contents=outfile.read() #get contents of file to check if empty
 if(not contents): #empty string evaluates to false
     cont=str(input("File destination is not empty, enter Y to continue and risk corrupting your file, N to exit: "))
     #line above prompts for permission to write data anyways
